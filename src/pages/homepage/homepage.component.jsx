@@ -5,7 +5,7 @@ import './homepage.styles.scss'
 import { Directory } from '../../components/directory/directory.component'
 
 const HomePage = () => {
-  const [sections, setSections] = React.useState([
+  const [sections] = React.useState([
     {
       title: 'hats',
       imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
